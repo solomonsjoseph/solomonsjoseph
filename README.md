@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @solomonsjoseph
 - 👀 I’m interested in Technology
 - 🌱 I’m currently learning Computer Science
-- 💞️ I’m looking to collaborate on Nothing Yet but soon...
+- 💞️ I’m looking to collaborate soon...
 - 📫 How to reach me will be updated soon.
 
 <!---
