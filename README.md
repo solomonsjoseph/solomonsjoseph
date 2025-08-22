@@ -6,7 +6,7 @@ You can click the Preview link to take a look at your changes.
 
 --->
 
-👋 Hello! I'm a developer and technologist with a passion for building practical, efficient, and user-focused applications with AI. My work bridges the gap between complex data processing and the creative potential of large language models. I specialize in prompt engineering, building robust AI agents, and developing data pipelines that serve as the foundation for intelligent systems.
+👋 Hello! I'm a innovative thinker, developer and technologist with a passion for building practical, efficient, and user-focused applications with AI. My work bridges the gap between complex data processing and the creative potential of large language models. I specialize in prompt engineering, building robust AI agents, and developing data pipelines that serve as the foundation for intelligent systems.
 
 Below are some of the projects I'm currently focused on.
 
