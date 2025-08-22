@@ -8,6 +8,9 @@ You can click the Preview link to take a look at your changes.
 
 👋 Hello! I'm a innovative thinker, developer and technologist with a passion for building practical, efficient, and user-focused applications with AI. My work bridges the gap between complex data processing and the creative potential of large language models. I specialize in prompt engineering, building robust AI agents, and developing data pipelines that serve as the foundation for intelligent systems.
 
+Currently, I am a **Research Teaching Specialist III**, where I am applying these skills to help researchers query a long-term medical study.
+
+
 Below are some of the projects I'm currently focused on.
 
 ---
@@ -15,17 +18,29 @@ Below are some of the projects I'm currently focused on.
 ## 🚀 Current Project
 
 ### [RePORTaLiN](https://github.com/solomonsjoseph/RePORTaLiN)
-A **R**etrieval-**A**ugmented **G**eneration (RAG) pipeline designed for scientific researchers. This project emphasizes a modular, configuration-first approach to streamline complex data workflows.
+My main project is **RePORTaLiN**, a Retrieval-Augmented Generation (RAG) pipeline designed for scientific researchers. It emphasizes a modular, configuration-first approach to streamline complex data workflows and produce clear, structured outputs (summaries, tables, graphs).
 
-* **Python Entry Point:** Easy for developers and researchers to integrate and run.
-* **Modular Scripts:** Simplifies customization and maintenance.
-* **Intelligent Data Loading:** Features an advanced Excel data dictionary loader that can split grids, respect "Ignore Below" markers, resolve duplicate column names, and write clean `JSONL` for downstream processing.
+Key features and goals include:
+
+* **Intelligent Data Loading:** An advanced Excel data dictionary loader that splits grids, respects "Ignore Below" markers, resolves duplicate column names, and writes clean `JSONL`.
+* **Direct PDF Retrieval:** Works directly with annotated PDFs to preserve form-specific context, avoiding lossy bulk conversions.
+* **Modular & Accessible:** Features a Python entry point and modular scripts to simplify integration, customization, and maintenance for researchers.
+* **Reproducible HPC Workflows:** Runs within Singularity containers orchestrated by **Slurm** for consistent, reproducible results.
+* **Privacy by Design:** Implements robust safeguards, including least-privilege access and provenance tracking.
 
 ---
 
-## 🤖 My Custom GPTs
+### 🛠️ Tools & Interests
+- **LLMs & IR**: LLaMA (Hugging Face), RAG, form-aware context retrieval
+- **Data**: Excel-based data dictionaries & mappings, JSONL tables, structured provenance
+- **Compute**: Slurm, Singularity containers (reproducible HPC jobs)
+- **Delivery**: Clear researcher-facing answers (summaries, tables, plots)
+- **Principles**: Privacy-by-design, reproducibility, transparency
 
-I have designed and built a suite of custom GPTs, each with a specific focus, carefully crafted system prompts, and built-in guardrails to ensure safe and effective interactions.
+---
+
+### 🤖 My Custom GPTs
+Beyond my core research, I build specialized AI agents. This collection demonstrates my expertise in prompt engineering, AI safety, and creating user-centric tools.
 
 | GPT Name | Focus & Purpose |
 | :--- | :--- |
@@ -44,6 +59,12 @@ I have designed and built a suite of custom GPTs, each with a specific focus, ca
 
 ---
 
-## 📫 Get In Touch
+### 📍 Location
+Newark, NJ
 
+### 📫 Get in touch
+- **Email**: `sj1234520162016@gmail.com`
+- **LinkedIn**: [`Solomon S Joseph`](https://www.linkedin.com/in/solomon-s-joseph/)
+
+I'm open to collaborations on **research tooling, RAG, privacy-preserving ML, Cyber/Information Security and so on**.
 I'm always open to connecting with fellow innovators and builders. Feel free to explore my repositories and see what I'm working on!
