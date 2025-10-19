@@ -5,6 +5,7 @@ You can click the Preview link to take a look at your changes.
 *(You can replace the names in the table with the actual share links once you have them to make them clickable buttons.)*
 
 --->
+# About me
 
 👋 Hello! I'm a innovative thinker, developer and technologist with a passion for building practical, efficient, and user-focused applications with AI. My work bridges the gap between complex data processing and the creative potential of large language models. I specialize in prompt engineering, building robust AI agents, and developing data pipelines that serve as the foundation for intelligent systems.
 
