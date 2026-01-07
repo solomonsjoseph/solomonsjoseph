@@ -56,7 +56,7 @@ Beyond my core research, I build specialized AI agents. This collection demonstr
 | **The Physics Expert**| Explores physics concepts and problems, from classical mechanics to quantum, showing steps and citing sources. |
 | **Global Finance Advisor**| Provides educational guidance on personal finance and macroeconomic concepts with a global perspective (not financial advice). |
 | **Pschosis** | Offers supportive, educational content on mental health topics and points users toward reputable, professional resources. |
-| **LDS Companion**| An assistant for scripture and gospel questions, sourcing exclusively from official ChurchofJesusChrist.org materials. |
+| **[LDS Companion](https://chatgpt.com/g/g-689b0c740078819191f0c4c976d0f4b9-lds-companion)**| An assistant for scripture and gospel questions, sourcing exclusively from official ChurchofJesusChrist.org materials. |
 
 ---
 
