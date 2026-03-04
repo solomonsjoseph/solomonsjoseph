@@ -18,7 +18,7 @@ Below are some of the projects I'm currently focused on.
 
 ## 🚀 Current Project
 
-### [RePORTaLiN](https://github.com/solomonsjoseph/RePORTaLiN)
+### [RePORTaLiN](https://github.com/solomonsjoseph/RePORTaLiN-RAG)
 My main project is **RePORTaLiN**, a Retrieval-Augmented Generation (RAG) pipeline designed for scientific researchers. It emphasizes a modular, configuration-first approach to streamline complex data workflows and produce clear, structured outputs (summaries, tables, graphs).
 
 Key features and goals include:
