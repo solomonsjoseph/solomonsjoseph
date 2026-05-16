@@ -42,14 +42,6 @@ A privacy-first AI research workflow suite for clinical research environments.
 - Privacy and compliance language is implementation-oriented and review-support focused, not a legal certification.
 - IRB approval has not been received for the separate PHI-handling review-support system.
 
-## Selected Repositories
-
-- RePORT-AI-Portal
-- RePORT-agent
-- PHI-Handling-IRB-Review-Support
-- MetaScope
-- Secure-AI-Flow
-
 ## Research Direction
 
 Secure AI systems, LLM/RAG security, privacy-preserving AI workflows, cybersecurity automation, AI governance evidence, post-quantum cryptography readiness, crypto-agility, and quantum-resilient security architecture.
