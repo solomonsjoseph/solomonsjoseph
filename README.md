@@ -6,11 +6,11 @@ I build secure AI systems for regulated research workflows, with emphasis on pri
 
 ## Current Focus
 
-- Secure AI systems for regulated research environments
-- LLM/RAG security and privacy-preserving AI workflows
-- PHI/PII de-identification and synthetic privacy test corpora
-- Agentic AI workflows with LangGraph and human review checkpoints
-- AI-assisted secure SDLC, threat modeling, and release evidence
+- Secure AI systems for regulated research workflows
+- Privacy-first RAG and secure retrieval pipelines
+- PHI/PII de-identification and synthetic privacy testing
+- LLM/RAG security, audit evidence, and human-in-the-loop controls
+- AI-assisted secure SDLC and threat modeling
 - Long-term research direction: post-quantum cryptography readiness and crypto-agility
 
 ## Flagship Work
