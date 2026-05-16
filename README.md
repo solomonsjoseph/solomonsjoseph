@@ -35,6 +35,13 @@ A privacy-first AI research workflow suite for clinical research environments.
 **Infrastructure:** Docker, Singularity, GitHub Actions, Linux, HPC environments, Nextflow  
 **Frameworks:** HIPAA Safe Harbor-informed handling, India DPDPA-informed handling, NIST AI RMF concepts, OWASP Top 10, secure SDLC
 
+## Safety and Scope Notes
+
+- Public repositories do not contain real PHI or patient-identifying data.
+- PHI/PII examples are synthetic or sanitized.
+- Privacy and compliance language is implementation-oriented and review-support focused, not a legal certification.
+- IRB approval has not been received for the separate PHI-handling review-support system.
+
 ## Selected Repositories
 
 - RePORT-AI-Portal
