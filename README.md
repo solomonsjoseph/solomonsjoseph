@@ -37,11 +37,10 @@ Core components:
 ## Selected Repositories
 
 - RePORT-AI-Portal
-- PHI-Handling-IRB-Review-Support
-- RePORTaLiN-MCP
 - RePORT-agent
+- PHI-Handling-IRB-Review-Support
+- MetaScope
 - Secure-AI-Flow
-- MetaScope-in-Nextflow
 
 ## Research Direction
 
