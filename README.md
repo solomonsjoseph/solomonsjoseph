@@ -19,12 +19,13 @@ I build secure AI systems for regulated research workflows, with emphasis on pri
 
 A privacy-first AI research workflow suite for clinical research environments.
 
-Core components:
+## Selected Repositories
 
-- **RePORT-AI-Portal** — local-first RAG assistant for PHI-scrubbed study bundles
-- **RePORTaLiN-MCP** — clinical data-processing and PHI/PII handling layer
-- **RePORT-agent** — LangGraph multi-agent workflow layer
-- **PHI Handling System** — synthetic PHI/PII corpus and IRB review support tooling
+1. **RePORT-AI-Portal** — privacy-first local RAG assistant for PHI-scrubbed clinical research bundles.
+2. **RePORT-agent** — LangGraph multi-agent workflow for secure research analysis and human review checkpoints.
+3. **PHI-Handling-IRB-Review-Support** — synthetic PHI/PII corpus, validation harness, and IRB review support tooling.
+4. **MetaScope** — research software contribution supporting scientific workflow development and manuscript preparation.
+5. **Secure-AI-Flow** — security-first methodology for AI-assisted software delivery, governance, and release evidence.
 
 ## Technical Stack
 
