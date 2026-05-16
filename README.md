@@ -46,6 +46,10 @@ A privacy-first AI research workflow suite for clinical research environments.
 
 Secure AI systems, LLM/RAG security, privacy-preserving AI workflows, cybersecurity automation, AI governance evidence, post-quantum cryptography readiness, crypto-agility, and quantum-resilient security architecture.
 
+## Target Roles
+
+AI Security Engineer, Secure AI Systems Engineer, Product Security Engineer, Security Automation Engineer, Privacy Engineering, and Research Software Engineering roles involving secure AI or regulated data.
+
 ## Contact
 
 LinkedIn: https://www.linkedin.com/in/solomon-s-joseph/  
