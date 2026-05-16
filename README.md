@@ -1,51 +1,53 @@
-<!---
-solomonsjoseph/solomonsjoseph is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+# Solomon S. Joseph
 
-*(You can replace the names in the table with the actual share links once you have them to make them clickable buttons.)*
+**AI Security Engineer | Secure AI Systems | Privacy-First RAG | PHI De-Identification | Python, SQL, LangGraph**
 
---->
-# About me
+I build secure AI systems for regulated research workflows, with emphasis on privacy-first RAG, PHI/PII de-identification, audit evidence, fail-closed data controls, secure retrieval, and human-in-the-loop AI governance.
 
-👋 Hello! I'm a innovative thinker, developer and technologist with a passion for building practical, efficient, and user-focused applications with AI. My work bridges the gap between complex data processing and the creative potential of large language models. I specialize in prompt engineering, building robust AI agents, and developing data pipelines that serve as the foundation for intelligent systems.
+## Current Focus
 
-Currently, I am a **Research Teaching Specialist III**, where I am applying these skills to help researchers query a long-term medical study.
+- Secure AI systems for regulated research environments
+- LLM/RAG security and privacy-preserving AI workflows
+- PHI/PII de-identification and synthetic privacy test corpora
+- Agentic AI workflows with LangGraph and human review checkpoints
+- AI-assisted secure SDLC, threat modeling, and release evidence
+- Long-term research direction: post-quantum cryptography readiness and crypto-agility
 
+## Flagship Work
 
-Below are some of the projects I'm currently focused on.
+### RePORT Secure AI Suite
 
----
+A privacy-first AI research workflow suite for clinical research environments.
 
-## 🚀 Current Project
+Core components:
 
-### [RePORTaLiN](https://github.com/solomonsjoseph/RePORT-AI-Portal)
-My main project is **RePORTaLiN**, a Retrieval-Augmented Generation (RAG) pipeline designed for scientific researchers. It emphasizes a modular, configuration-first approach to streamline complex data workflows and produce clear, structured outputs (summaries, tables, graphs).
+- **RePORT-AI-Portal** — local-first RAG assistant for PHI-scrubbed study bundles
+- **RePORTaLiN-MCP** — clinical data-processing and PHI/PII handling layer
+- **RePORT-agent** — LangGraph multi-agent workflow layer
+- **PHI Handling System** — synthetic PHI/PII corpus and IRB review support tooling
 
-Key features and goals include:
+## Technical Stack
 
-* **Intelligent Data Loading:** An advanced Excel data dictionary loader that splits grids, respects "Ignore Below" markers, resolves duplicate column names, and writes clean `JSONL`.
-* **Direct PDF Retrieval:** Works directly with annotated PDFs to preserve form-specific context, avoiding lossy bulk conversions.
-* **Modular & Accessible:** Features a Python entry point and modular scripts to simplify integration, customization, and maintenance for researchers.
-* **Reproducible HPC Workflows:** Runs within Singularity containers orchestrated by **Slurm** for consistent, reproducible results.
-* **Privacy by Design:** Implements robust safeguards, including least-privilege access and provenance tracking.
+**Languages:** Python, SQL, R, Bash  
+**AI / LLM:** RAG, LangGraph, Hugging Face Transformers, local-first AI workflows  
+**Security / Privacy:** PHI de-identification, PII detection, audit logging, encrypted mapping storage, fail-closed controls, secure retrieval  
+**Infrastructure:** Docker, Singularity, GitHub Actions, Linux, HPC environments, Nextflow  
+**Frameworks:** HIPAA Safe Harbor-informed handling, India DPDPA-informed handling, NIST AI RMF concepts, OWASP Top 10, secure SDLC
 
----
+## Selected Repositories
 
-### 🛠️ Tools & Interests
-- **LLMs & IR**: LLaMA (Hugging Face), RAG, form-aware context retrieval
-- **Data**: Excel-based data dictionaries & mappings, JSONL tables, structured provenance
-- **Compute**: Slurm, Singularity containers (reproducible HPC jobs)
-- **Delivery**: Clear researcher-facing answers (summaries, tables, plots)
-- **Principles**: Privacy-by-design, reproducibility, transparency
+- RePORT-AI-Portal
+- PHI-Handling-IRB-Review-Support
+- RePORTaLiN-MCP
+- RePORT-agent
+- Secure-AI-Flow
+- MetaScope-in-Nextflow
 
----
+## Research Direction
 
-### 📍 Location
-Newark, NJ
+Secure AI systems, LLM/RAG security, privacy-preserving AI workflows, cybersecurity automation, AI governance evidence, post-quantum cryptography readiness, crypto-agility, and quantum-resilient security architecture.
 
-### 📫 Get in touch
-- **Email**: `sj1234520162016@gmail.com`
-- **LinkedIn**: [`Solomon S Joseph`](https://www.linkedin.com/in/solomon-s-joseph/)
+## Contact
 
-I'm open to collaborations on **research tooling, RAG, privacy-preserving ML, Cyber/Information Security and so on**.
-I'm always open to connecting with fellow innovators and builders. Feel free to explore my repositories and see what I'm working on!
+LinkedIn: https://www.linkedin.com/in/solomon-s-joseph/  
+GitHub: https://github.com/solomonsjoseph
