@@ -1,6 +1,6 @@
 # Solomon S. Joseph
 
-**AI Security Engineer | Secure AI Systems | Privacy-First RAG | PHI De-Identification | Python, SQL, LangGraph**
+**AI Security + Post-Quantum Cryptography. OWASP LLM Top 10 | MITRE ATLAS | NIST PQC (ML-KEM, ML-DSA) | Privacy-First RAG | Rutgers University**
 
 I build secure AI systems for regulated research workflows, with emphasis on privacy-first RAG, PHI/PII de-identification, audit evidence, fail-closed data controls, secure retrieval, and human-in-the-loop AI governance.
 
