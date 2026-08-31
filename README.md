@@ -57,7 +57,7 @@ Longer term, I work toward post-quantum cryptography readiness and crypto-agilit
 
 </div>
 
-A fail-closed pipeline that turns raw clinical study data into something an AI assistant can safely query. Upload a ZIP of datasets, forms, and dictionaries, and the pipeline classifies every column: the LLM only ever sees column headers, dictionary text, and form fields, never a patient row. A sandboxed executor applies HIPAA Safe Harbor transformations, a deterministic verifier checks the result, and a residual PHI guard scans everything before it can publish. Anything the pipeline cannot classify with confidence holds the whole study rather than being silently dropped or guessed at.
+A fail-closed pipeline that turns raw clinical study data into something an AI assistant can safely query. Upload a ZIP of datasets, forms, and dictionaries, and the Judge classifies every column with one of three verdicts: keep it as-is, drop it, or apply a Safe Harbor transformation. The LLM only ever sees column headers, dictionary text, and form fields, never a patient row. A sandboxed executor applies the transformations, a deterministic verifier checks the result, and a residual PHI guard scans everything before it can publish. Anything it cannot classify with confidence holds the whole study rather than being silently dropped or guessed at.
 
 - 11-stage documented pipeline, from intake through publish guard
 - 340+ regression tests

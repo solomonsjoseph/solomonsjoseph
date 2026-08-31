@@ -39,11 +39,16 @@
     <circle cx="255" cy="185" r="4" opacity="0.65"/>
   </g>
 
-  <!-- held for review: what does not cross, on purpose -->
+  <!-- held for review: what fails closed is contained, not guessed -->
   <rect x="360" y="223" width="120" height="30" rx="4" fill="none" stroke="#8B949E" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>
   <text x="420" y="242" text-anchor="middle" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.2" fill="#8B949E">HELD FOR REVIEW</text>
   <circle cx="378" cy="238" r="4" fill="#F59E0B" opacity="0.75"/>
   <circle cx="462" cy="238" r="4" fill="#F59E0B" opacity="0.6"/>
+
+  <!-- drop sink: items diverted here fade away, removed from the output -->
+  <path d="M 405 118 L 272 228" stroke="#8B949E" stroke-width="1" stroke-dasharray="3,3" opacity="0.45"/>
+  <text x="268" y="238" text-anchor="end" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.5" fill="#8B949E">DROP</text>
+  <path d="M 268 214 L 268 226 M 262 221 L 268 227 L 274 221" fill="none" stroke="#8B949E" stroke-width="1" opacity="0.7"/>
 
   <!-- the gate -->
   <polygon points="440,42 478,74 478,186 440,218 402,186 402,74" fill="#0D1117" stroke="#A855F7" stroke-width="1" opacity="0.35"/>
@@ -69,29 +74,31 @@
     <circle cx="745" cy="170" r="5" opacity="0.8"/>
   </g>
 
-  <!-- travelers: raw crossing the gate, resolved cyan on the far side -->
-  <circle cx="255" cy="95" r="4" fill="#F59E0B">
-    <animate attributeName="cx" values="255;440;620" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="95;110;115" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="160" cy="50" r="4" fill="#F59E0B">
-    <animate attributeName="cx" values="160;440;670" keyTimes="0;0.5;1" dur="6s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="50;70;50" keyTimes="0;0.5;1" dur="6s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="6s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="105" cy="185" r="4" fill="#F59E0B">
-    <animate attributeName="cx" values="105;440;745" keyTimes="0;0.5;1" dur="5.5s" begin="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="185;160;170" keyTimes="0;0.5;1" dur="5.5s" begin="2s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="5.5s" begin="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="200" cy="140" r="4" fill="#F59E0B">
-    <animate attributeName="cx" values="200;440;760" keyTimes="0;0.5;1" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="140;125;112" keyTimes="0;0.5;1" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+  <!-- traveler: TRANSFORM (amber becomes cyan as it crosses) -->
+  <circle cx="160" cy="130" r="4" fill="#F59E0B">
+    <animate attributeName="cx" values="160;440;630" keyTimes="0;0.5;1" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="5.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- title block: labels the project now that it lives in its own section, not the page name again -->
+  <!-- traveler: KEEP (stays amber the whole way, passes unchanged) -->
+  <circle cx="110" cy="72" r="4" fill="#F59E0B">
+    <animate attributeName="cx" values="110;440;660" keyTimes="0;0.5;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- traveler: DROP (veers to the drop sink and fades) -->
+  <circle cx="240" cy="55" r="4" fill="#F59E0B">
+    <animate attributeName="cx" values="240;405;272" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="55;120;232" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0.85;0.2" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- traveler: TRANSFORM (lower lane) -->
+  <circle cx="200" cy="175" r="4" fill="#F59E0B">
+    <animate attributeName="cx" values="200;440;600" keyTimes="0;0.5;1" dur="5.8s" begin="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="5.8s" begin="3.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- title block -->
   <rect x="655" y="206" width="205" height="42" rx="6" fill="#0D1117" fill-opacity="0.9" stroke="#30363D" stroke-width="1"/>
   <text x="667" y="224" font-family="Fira Code,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#E6EDF3">PHI-HANDLING-SYSTEM</text>
   <text x="667" y="240" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.5" fill="#8B949E">FAIL-CLOSED PIPELINE</text>
