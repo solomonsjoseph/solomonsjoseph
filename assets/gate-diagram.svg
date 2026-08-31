@@ -91,8 +91,8 @@
     <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- title block -->
+  <!-- title block: labels the project now that it lives in its own section, not the page name again -->
   <rect x="655" y="206" width="205" height="42" rx="6" fill="#0D1117" fill-opacity="0.9" stroke="#30363D" stroke-width="1"/>
-  <text x="667" y="224" font-family="Fira Code,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#E6EDF3">SOLOMON S. JOSEPH</text>
-  <text x="667" y="240" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.5" fill="#8B949E">AI IMPLEMENTATION ENGINEER</text>
+  <text x="667" y="224" font-family="Fira Code,monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#E6EDF3">PHI-HANDLING-SYSTEM</text>
+  <text x="667" y="240" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.5" fill="#8B949E">FAIL-CLOSED PIPELINE</text>
 </svg>
