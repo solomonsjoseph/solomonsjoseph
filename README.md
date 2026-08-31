@@ -1,6 +1,7 @@
 <!--
   How to keep this page current:
-  - Hero banner: edit assets/hero.svg directly (name, subtitle, colors).
+  - Hero banner: a hand-built diagram of the actual PHI pipeline gate (raw data,
+    verification, published data, held-for-review). Edit assets/hero.svg directly.
   - Typing line: edit the "lines=" part of the typing SVG URL below.
   - Social links: edit the URL inside each badge in the social row.
   - Tech badges: add or remove a shields.io badge line.
@@ -18,7 +19,13 @@
 
 <img src="https://raw.githubusercontent.com/solomonsjoseph/solomonsjoseph/main/assets/hero.svg" alt="Solomon S. Joseph" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=900&color=00F2FE&center=true&width=680&lines=Building+privacy-first+AI+for+regulated+research;LangGraph%2C+MCP%2C+and+RAG+under+HIPAA+and+DPDPA;Turning+protected+data+into+plain-language+answers" alt="Typing tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=900&color=00F2FE&center=true&width=680&lines=Headers+reach+the+model.+Row+values+never+do.;Fail-closed+by+default%3A+one+blocking+item+holds+the+whole+study.;Deterministic+transforms%2C+verified+before+every+publish." alt="Typing tagline" />
+
+</div>
+
+<div align="center">
+
+*The diagram above is not decoration. It is how the pipeline behind RePORT-AI-Portal actually works: raw study data is classified and transformed inside a sandbox, and only the far side of that gate, after a residual PHI guard, is ever visible to the assistant. Anything the pipeline cannot classify with confidence is held for review rather than guessed at.*
 
 </div>
 
@@ -90,7 +97,7 @@ I work across Claude, OpenAI, Google, and local models, with RAG, prompt enginee
 
 <div align="center">
 
-> Why do programmers prefer dark mode? Because light attracts bugs.
+> Ask me about pseudonymization. Just don't ask who I really am.
 
 </div>
 
