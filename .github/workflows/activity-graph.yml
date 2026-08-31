@@ -1,4 +1,4 @@
-name: Update activity graph
+name: Update coding activity visuals
 
 on:
   schedule:
@@ -9,18 +9,32 @@ on:
 permissions:
   contents: write
 
+# Both visuals are generated in this single job and published in one push.
+# Do not split these into separate workflows: crazy-max/ghaction-github-pages
+# replaces the whole "output" branch with build_dir on every run, so two
+# independent workflows pushing different files here would overwrite each
+# other's file on every alternating run.
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Generate activity graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: theme=tokyo-night&hide_border=true&area=true&radius=8
+          options: bg_color=0D1117&color=8B949E&line=00F2FE&point=A855F7&area=true&area_color=00F2FE&title_color=00F2FE&hide_border=true&radius=12&custom_title=Coding%20Activity
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.gif?color_snake=00F2FE&color_dots=0D1117,13315C,1D5D9B,2E9CCA,00F2FE&color_background=0D1117
+
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
