@@ -73,7 +73,7 @@ I work across Claude, OpenAI, Google, and local models, with RAG, prompt enginee
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=solomonsjoseph&theme=radical&hide_border=true&background=0D1117)](https://github.com/solomonsjoseph)
 
-![Contribution Snake](https://raw.githubusercontent.com/solomonsjoseph/solomonsjoseph/output/github-snake.gif)
+![Contribution Snake](https://raw.githubusercontent.com/solomonsjoseph/solomonsjoseph/output/github-snake.svg)
 
 </div>
 
