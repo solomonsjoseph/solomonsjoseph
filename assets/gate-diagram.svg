@@ -12,43 +12,45 @@
   <text x="50" y="26" font-family="Fira Code,monospace" font-size="10" letter-spacing="2" fill="#8B949E">RAW</text>
   <text x="850" y="26" text-anchor="end" font-family="Fira Code,monospace" font-size="10" letter-spacing="2" fill="#8B949E">PUBLISHED</text>
 
-  <!-- raw field: heterogeneous column types, amber, fixed placement -->
-  <g fill="#F59E0B">
-    <circle cx="55" cy="50" r="5" opacity="0.75"/>
-    <rect x="100" y="45" width="9" height="9" opacity="0.6"/>
-    <polygon points="160,44 168,58 152,58" opacity="0.7"/>
-    <rect x="200" y="45" width="9" height="9" transform="rotate(45 204.5 49.5)" opacity="0.55"/>
-    <circle cx="255" cy="50" r="4" opacity="0.8"/>
+  <!-- raw field: every input arrives in the same format, one uniform field -->
+  <g fill="#F59E0B" opacity="0.75">
+    <circle cx="55" cy="50" r="4"/>
+    <circle cx="104" cy="50" r="4"/>
+    <circle cx="160" cy="50" r="4"/>
+    <circle cx="204" cy="50" r="4"/>
+    <circle cx="255" cy="50" r="4"/>
 
-    <rect x="50" y="90" width="9" height="9" opacity="0.65"/>
-    <circle cx="105" cy="95" r="5" opacity="0.5"/>
-    <rect x="151" y="90" width="9" height="9" transform="rotate(45 155.5 94.5)" opacity="0.75"/>
-    <polygon points="205,89 213,103 197,103" opacity="0.6"/>
-    <circle cx="255" cy="95" r="4" opacity="0.7"/>
+    <circle cx="54" cy="95" r="4"/>
+    <circle cx="105" cy="95" r="4"/>
+    <circle cx="155" cy="95" r="4"/>
+    <circle cx="209" cy="95" r="4"/>
+    <circle cx="255" cy="95" r="4"/>
 
-    <polygon points="55,134 63,148 47,148" opacity="0.6"/>
-    <rect x="100" y="135" width="9" height="9" opacity="0.8"/>
-    <circle cx="155" cy="140" r="5" opacity="0.55"/>
-    <rect x="200" y="135" width="9" height="9" transform="rotate(45 204.5 139.5)" opacity="0.7"/>
-    <circle cx="255" cy="140" r="4" opacity="0.6"/>
+    <circle cx="59" cy="140" r="4"/>
+    <circle cx="104" cy="140" r="4"/>
+    <circle cx="155" cy="140" r="4"/>
+    <circle cx="204" cy="140" r="4"/>
+    <circle cx="255" cy="140" r="4"/>
 
-    <rect x="50" y="180" width="9" height="9" transform="rotate(45 54.5 184.5)" opacity="0.7"/>
-    <circle cx="105" cy="185" r="5" opacity="0.6"/>
-    <polygon points="160,179 168,193 152,193" opacity="0.8"/>
-    <rect x="200" y="180" width="9" height="9" opacity="0.5"/>
-    <circle cx="255" cy="185" r="4" opacity="0.65"/>
+    <circle cx="54" cy="185" r="4"/>
+    <circle cx="105" cy="185" r="4"/>
+    <circle cx="164" cy="185" r="4"/>
+    <circle cx="204" cy="185" r="4"/>
+    <circle cx="255" cy="185" r="4"/>
   </g>
 
-  <!-- held for review: what fails closed is contained, not guessed -->
+  <!-- drop sink: red channel, red label, faint red residue -->
+  <path d="M 405 118 L 272 228" stroke="#F85149" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <path d="M 268 214 L 268 226 M 262 221 L 268 227 L 274 221" fill="none" stroke="#F85149" stroke-width="1" opacity="0.85"/>
+  <text x="268" y="238" text-anchor="end" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.5" fill="#F85149">DROP</text>
+  <circle cx="288" cy="205" r="3" fill="#F85149" opacity="0.35"/>
+  <circle cx="282" cy="218" r="2.5" fill="#F85149" opacity="0.25"/>
+
+  <!-- held for review: yellow, contained, animated arrivals -->
   <rect x="360" y="223" width="120" height="30" rx="4" fill="none" stroke="#8B949E" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>
   <text x="420" y="242" text-anchor="middle" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.2" fill="#8B949E">HELD FOR REVIEW</text>
-  <circle cx="378" cy="238" r="4" fill="#F59E0B" opacity="0.75"/>
-  <circle cx="462" cy="238" r="4" fill="#F59E0B" opacity="0.6"/>
-
-  <!-- drop sink: items diverted here fade away, removed from the output -->
-  <path d="M 405 118 L 272 228" stroke="#8B949E" stroke-width="1" stroke-dasharray="3,3" opacity="0.45"/>
-  <text x="268" y="238" text-anchor="end" font-family="Fira Code,monospace" font-size="9" letter-spacing="1.5" fill="#8B949E">DROP</text>
-  <path d="M 268 214 L 268 226 M 262 221 L 268 227 L 274 221" fill="none" stroke="#8B949E" stroke-width="1" opacity="0.7"/>
+  <circle cx="378" cy="238" r="4" fill="#EAB308" opacity="0.7"/>
+  <circle cx="462" cy="238" r="4" fill="#EAB308" opacity="0.55"/>
 
   <!-- the gate -->
   <polygon points="440,42 478,74 478,186 440,218 402,186 402,74" fill="#0D1117" stroke="#A855F7" stroke-width="1" opacity="0.35"/>
@@ -59,43 +61,60 @@
   </circle>
   <path d="M 421 130 L 434 145 L 461 106" stroke="#00F2FE" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- published field: sparser, normalized, cyan -->
-  <g fill="#00F2FE">
-    <circle cx="600" cy="55" r="5" opacity="0.7"/>
-    <circle cx="670" cy="50" r="5" opacity="0.55"/>
-    <circle cx="740" cy="58" r="5" opacity="0.75"/>
-
-    <circle cx="615" cy="115" r="5" opacity="0.6"/>
-    <circle cx="690" cy="120" r="5" opacity="0.8"/>
-    <circle cx="760" cy="112" r="5" opacity="0.5"/>
-
-    <circle cx="605" cy="175" r="5" opacity="0.7"/>
-    <circle cx="675" cy="182" r="5" opacity="0.6"/>
-    <circle cx="745" cy="170" r="5" opacity="0.8"/>
+  <!-- published field: cyan = transformed, amber = kept as-is -->
+  <g>
+    <circle cx="600" cy="55" r="5" fill="#00F2FE" opacity="0.7"/>
+    <circle cx="740" cy="58" r="5" fill="#00F2FE" opacity="0.75"/>
+    <circle cx="690" cy="120" r="5" fill="#00F2FE" opacity="0.8"/>
+    <circle cx="760" cy="112" r="5" fill="#00F2FE" opacity="0.5"/>
+    <circle cx="605" cy="175" r="5" fill="#00F2FE" opacity="0.7"/>
+    <circle cx="670" cy="50" r="5" fill="#F59E0B" opacity="0.7"/>
+    <circle cx="615" cy="115" r="5" fill="#F59E0B" opacity="0.6"/>
+    <circle cx="675" cy="182" r="5" fill="#F59E0B" opacity="0.55"/>
+    <circle cx="745" cy="170" r="5" fill="#F59E0B" opacity="0.65"/>
   </g>
 
   <!-- traveler: TRANSFORM (amber becomes cyan as it crosses) -->
   <circle cx="160" cy="130" r="4" fill="#F59E0B">
     <animate attributeName="cx" values="160;440;630" keyTimes="0;0.5;1" dur="5.5s" repeatCount="indefinite"/>
     <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.85;1" dur="5.5s" repeatCount="indefinite"/>
   </circle>
 
   <!-- traveler: KEEP (stays amber the whole way, passes unchanged) -->
   <circle cx="110" cy="72" r="4" fill="#F59E0B">
     <animate attributeName="cx" values="110;440;660" keyTimes="0;0.5;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.85;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- traveler: DROP (veers to the drop sink and fades) -->
+  <!-- traveler: DROP (amber turns red and falls into the drop sink) -->
   <circle cx="240" cy="55" r="4" fill="#F59E0B">
     <animate attributeName="cx" values="240;405;272" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
     <animate attributeName="cy" values="55;120;232" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.85;0.85;0.2" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#F59E0B;#F59E0B;#F85149" keyTimes="0;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0.85;0.2" keyTimes="0;0.12;0.45;1" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- traveler: HELD (amber turns yellow, arrives in the review box, resolved) -->
+  <circle cx="255" cy="175" r="4" fill="#F59E0B">
+    <animate attributeName="cx" values="255;440;378;378" keyTimes="0;0.45;0.7;1" dur="6.5s" begin="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="175;130;238;238" keyTimes="0;0.45;0.7;1" dur="6.5s" begin="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#F59E0B;#F59E0B;#EAB308;#EAB308" keyTimes="0;0.45;0.7;1" dur="6.5s" begin="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0.9;0" keyTimes="0;0.12;0.8;1" dur="6.5s" begin="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="105" cy="95" r="4" fill="#F59E0B">
+    <animate attributeName="cx" values="105;440;462;462" keyTimes="0;0.45;0.7;1" dur="7s" begin="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="95;130;238;238" keyTimes="0;0.45;0.7;1" dur="7s" begin="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#F59E0B;#F59E0B;#EAB308;#EAB308" keyTimes="0;0.45;0.7;1" dur="7s" begin="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0.9;0" keyTimes="0;0.12;0.8;1" dur="7s" begin="4.6s" repeatCount="indefinite"/>
   </circle>
 
   <!-- traveler: TRANSFORM (lower lane) -->
   <circle cx="200" cy="175" r="4" fill="#F59E0B">
     <animate attributeName="cx" values="200;440;600" keyTimes="0;0.5;1" dur="5.8s" begin="3.6s" repeatCount="indefinite"/>
     <animate attributeName="fill" values="#F59E0B;#F59E0B;#00F2FE" keyTimes="0;0.48;1" dur="5.8s" begin="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.85;1" dur="5.8s" begin="3.6s" repeatCount="indefinite"/>
   </circle>
 
   <!-- title block -->
